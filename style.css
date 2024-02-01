@@ -1,0 +1,129 @@
+:root {
+  --cor1: #171717;
+  --cor2: #df7d2e;
+  --cor3: #f59e0b;
+}
+
+body {
+  max-width: 1000px;
+  margin: auto;
+  background-color: var(--cor1);
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header:nth-of-type(2) {
+  align-self: center;
+}
+
+header img {
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+.hamburguer {
+  display: flex;
+  justify-content: center;
+}
+
+.hamburguer img {
+  border-radius: 10%;
+  margin: 50px;
+}
+
+article {
+  background-color: var(--cor3);
+  max-width: 800px;
+  color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  border-radius: 20%;
+  margin: 0 auto;
+}
+
+h3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+hr {
+  color: white;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.opinioes {
+  max-width: 1000px;
+  margin-top: 20px;
+  background-color: var(--cor3);
+}
+
+.esquerda{
+  padding-left: 10px;
+}
+
+.direita {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 10px;
+  background-color: var(--cor2);
+}
+
+.alinhamento {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  max-width: 1000px;
+}
+
+.contato {
+  margin: 20px 0;
+  color: white;
+  max-width: 1000px;
+}
+
+.redes_sociais {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  margin: 0 auto;
+}
+
+footer p {
+  font-style: italic;
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--cor2);
+}
+
